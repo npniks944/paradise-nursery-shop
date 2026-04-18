@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Paradise Nursery Plants</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="updateCartCount()">
+
+<header>
+
+<h2>Paradise Nursery</h2>
+
+<nav>
+<a href="products.html">Plants</a>
+<a href="cart.html">🛒 Cart (<span id="cart-count">0</span>)</a>
+</nav>
+
+</header>
+
+<h1 class="page-title">Our Plants</h1>
+
+<!-- Indoor Plants -->
+<h2 class="category">Indoor Plants</h2>
+
+<div class="product-grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1592150621744-aca64f48394a">
+<h3>Snake Plant</h3>
+<p>₹300</p>
+<button onclick="addToCart('Snake Plant',300)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+<h3>Peace Lily</h3>
+<p>₹400</p>
+<button onclick="addToCart('Peace Lily',400)">Add to Cart</button>
+</div>
+
+</div>
+
+<!-- Outdoor Plants -->
+<h2 class="category">Outdoor Plants</h2>
+
+<div class="product-grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce">
+<h3>Rose Plant</h3>
+<p>₹250</p>
+<button onclick="addToCart('Rose Plant',250)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+<h3>Aloe Vera</h3>
+<p>₹200</p>
+<button onclick="addToCart('Aloe Vera',200)">Add to Cart</button>
+</div>
+
+</div>
+
+<!-- Succulents -->
+<h2 class="category">Succulents</h2>
+
+<div class="product-grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1459156212016-c812468e2115">
+<h3>Cactus</h3>
+<p>₹150</p>
+<button onclick="addToCart('Cactus',150)">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+<h3>Jade Plant</h3>
+<p>₹350</p>
+<button onclick="addToCart('Jade Plant',350)">Add to Cart</button>
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
